@@ -1,10 +1,10 @@
 
 body {
   font-family: 'Roboto', sans-serif;
-  color: #545E6C;
+  color: #00395a;
   background: #f5f5f5;
   font-size: 14px;
-  padding: 30px;
+  padding: 10px;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -14,10 +14,11 @@ h3,
 h4,
 h5,
 h6 {
-  font-weight: 700;
+  font-weight: 600;
 }
 a {
   color: #2d7788;
+  transition: all 0.4s ease-in-out;
   -webkit-transition: all 0.4s ease-in-out;
   -moz-transition: all 0.4s ease-in-out;
   -ms-transition: all 0.4s ease-in-out;
@@ -145,11 +146,12 @@ p {
 }
 .main-wrapper {
   background: #fff;
-  padding: 60px;
+  padding: 5px;
   padding-right: 300px;
 }
 .main-wrapper .section-title {
   text-transform: uppercase;
+  margin-left: 10px;
   font-size: 20px;
   font-weight: 500;
   color: #2d7788;
@@ -161,6 +163,7 @@ p {
   width: 30px;
   height: 30px;
   margin-right: 8px;
+  margin-left: 10px;
   display: inline-block;
   color: #fff;
   -webkit-border-radius: 50%;
@@ -194,6 +197,7 @@ p {
   font-size: 16px;
   margin-top: 0;
   margin-bottom: 0;
+  margin-left: 15px;
   font-weight: 500;
 }
 .main-wrapper .time {
@@ -270,19 +274,24 @@ p {
 @media (min-width: 992px) {
   .skillset .level-title {
     display: inline-block;
-    float: left;
+    /* float: left; */
     width: 30%;
+    margin-left: 20px;
     margin-bottom: 0;
   }
   .skillset .level-bar {
     display: inline-block;
-    width: 70%;
-    float: left;
+    width: 30%;
+    /* float: left; */
     position: relative;
+    margin-left: 20px;
+    margin-right: 10px;
     top: 1px;
   }
 }
 
 .profile-container .text-center{
-  margin: 5px;
+  margin: 15px;
+  margin-left: 20px;
+  margin-right: 10px;
 }
